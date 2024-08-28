@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Colleges in Bihar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eef2f3;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2980b9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .college-box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .college-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .college-box a {
+            display: block;
+            padding: 20px;
+            color: #2980b9;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        .college-box a:hover {
+            color: #3498db;
+        }
+
+        .footer {
+            background-color: #2980b9;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .college-box a {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+        }
+
+        @media (min-width: 601px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            .college-box a {
+                font-size: 1.2em;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Engineering Colleges in Bihar</h1>
+    </header>
+    
+    <div class="container">
+        <div class="college-box">
+            <a href="https://www.nitpatna.ac.in/" target="_blank">
+                <i class="fas fa-university"></i> National Institute of Technology, Patna
+            </a>
+        </div>
+        <div class="college-box">
+            <a href="https://www.bcebhagalpur.ac.in/" target="_blank">
+                <i class="fas fa-university"></i> Bhagalpur College of Engineering, Bhagalpur
+            </a>
+        </div>
+        <div class="college-box">
+            <a href="https://www.gcegaya.ac.in/" target="_blank">
+                <i class="fas fa-university"></i> Gaya College of Engineering
+            </a>
+        </div>
+        <div class="college-box">
+            <a href="https://www.mitmuzaffarpur.ac.in/" target="_blank">
+                <i class="fas fa-university"></i> Muzaffarpur Institute of Technology
+            </a>
+        </div>
+        <div class="college-box">
+            <a href="https://www.bcepatna.ac.in/" target="_blank">
+                <i class="fas fa-university"></i> Bakhtiyarpur College of Engineering
+            </a>
+        </div>
+        <div class="college-box">
+            <a href="https://www.bcepatna.ac.in/" target="_blank">
+                <i class="fas fa-university"></i> Bihta College of Engineering
+            </a>
+        </div>
+        <!-- Add more college boxes here -->
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Engineering Colleges in Bihar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
