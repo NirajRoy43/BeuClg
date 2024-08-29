@@ -63,15 +63,16 @@
             color: #3498db;
         }
 
-	.footer {
-            background: #2980b9;
-            color: white;
-            text-align: center;
-            padding: 4px;
-            position: sticky;
-            bottom: 0;
-            left: 0;
-            width: 100%;
+	footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Ensures the footer is in the normal flow of the document */
+    width: 100%;
+    z-index: 1; /* Ensure footer stays above content if needed */
+    bottom: 0;
+        
 	}    
 
         
